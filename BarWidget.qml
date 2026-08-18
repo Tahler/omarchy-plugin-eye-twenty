@@ -19,7 +19,9 @@ BarWidget {
 
   function toggle() {
     root.loadService()
-    if (reminderService) reminderService.toggle()
+    if (reminderService) {
+      reminderService.toggle()
+    }
   }
 
   implicitWidth: button.implicitWidth

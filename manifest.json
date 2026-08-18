@@ -5,7 +5,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "author": "tahler",
-  "description": "A 20-minute reminder to focus 20 feet away for 20 seconds",
+  "description": "Sends a notification every 20 minutes reminder to look at an object 20 feet away for 20 seconds",
   "kinds": ["service", "bar-widget"],
   "entryPoints": {
     "service": "Service.qml",
