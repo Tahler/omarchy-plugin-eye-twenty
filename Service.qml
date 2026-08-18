@@ -25,7 +25,7 @@ Item {
 
     notificationProcess.command = [
       root.omarchyPath + "/bin/omarchy-notification-send",
-      "--app-name", "io.github.tahler.twenty-twenty-twenty",
+      "--app-name", "io.github.tahler.eye-twenty",
       "-u", "normal",
       "20-20-20 eye break",
       "Look at an object 20 feet away for 20 seconds."
@@ -36,7 +36,7 @@ Item {
   PersistentProperties {
     id: persisted
 
-    reloadableId: "io.github.tahler.twenty-twenty-twenty"
+    reloadableId: "io.github.tahler.eye-twenty"
     property bool active: true
   }
 

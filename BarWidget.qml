@@ -4,7 +4,7 @@ import qs.Ui
 BarWidget {
   id: root
 
-  readonly property string serviceId: "io.github.tahler.twenty-twenty-twenty"
+  readonly property string serviceId: "io.github.tahler.eye-twenty"
   property var reminderService: null
   readonly property bool active: reminderService ? reminderService.active : false
 
