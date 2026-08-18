@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.tahler.twenty-twenty-twenty",
+  "name": "20-20-20 Eye Breaks",
+  "version": "1.0.0",
+  "author": "tahler",
+  "description": "A 20-minute reminder to focus 20 feet away for 20 seconds",
+  "kinds": ["service", "bar-widget"],
+  "entryPoints": {
+    "service": "Service.qml",
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "20-20-20 Eye Breaks",
+    "description": "Pause or resume 20-20-20 eye-break reminders",
+    "category": "System",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
