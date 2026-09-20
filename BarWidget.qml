@@ -9,12 +9,12 @@ BarWidget {
   readonly property bool active: reminderService ? reminderService.active : false
 
   function loadService() {
-    if (!root.bar || !root.bar.shell || typeof root.bar.shell.ensureService !== "function") {
+    if (!root.bar || !root.bar.shell || typeof root.bar.shell.serviceFor !== "function") {
       reminderService = null
       return
     }
 
-    reminderService = root.bar.shell.serviceFor(serviceId) || root.bar.shell.ensureService(serviceId)
+    reminderService = root.bar.shell.serviceFor(serviceId)
   }
 
   function toggle() {
